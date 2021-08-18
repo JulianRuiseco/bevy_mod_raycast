@@ -1,6 +1,6 @@
 mod bounding;
 mod debug;
-mod primitives;
+pub mod primitives;
 mod raycast;
 
 pub use crate::bounding::{update_bound_sphere, BoundVol, BoundingSphere};
